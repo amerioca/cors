@@ -9,8 +9,8 @@
     "url": "https://github.com/Rob--W/cors-anywhere.git"
   },
   "scripts": {
-    "start": "nodemon server.js",
-    "forever": "forever start server.js",
+    "nodemon": "nodemon server.js",
+    "start": "forever start server.js",
     "watch": "forever -w server.js",
     "list": "forever list",
     "stop": "forever stopall",
@@ -38,6 +38,7 @@
     "server.js"
   ],
   "dependencies": {
+    "dotenv": "^16.0.1",
     "http-proxy": "1.11.1",
     "proxy-from-env": "0.0.1"
   },
