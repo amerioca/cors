@@ -2,6 +2,10 @@
 *.tmp
 *.log
 
+<<<<<<< HEAD
 .vscode/*
+=======
+package-lock.json
+>>>>>>> 2750de0ac4988eb555443f92fc06b8b31c983543
 coverage/
 node_modules/
