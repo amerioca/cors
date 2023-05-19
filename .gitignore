@@ -2,5 +2,6 @@
 *.tmp
 *.log
 
+.vscode/*
 coverage/
 node_modules/
